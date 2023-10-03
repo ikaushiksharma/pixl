@@ -1,9 +1,10 @@
 package pxcanvas
 
 import (
+	"pixl/pxcanvas/brush"
+
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/driver/desktop"
-	"pixl/pxcanvas/brush"
 )
 
 func (pxCanvas *PxCanvas) Scrolled(ev *fyne.ScrollEvent) {

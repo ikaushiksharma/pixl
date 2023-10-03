@@ -3,10 +3,11 @@ package brush
 import (
 	"image/color"
 
+	"pixl/apptype"
+
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/canvas"
 	"fyne.io/fyne/v2/driver/desktop"
-	"pixl/apptype"
 )
 
 const (
